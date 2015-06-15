@@ -9,7 +9,7 @@ For the original repository, see [tblobaum/rconsole](https://github.com/tblobaum
 
 ## Install
 
-    $ npm install rconsole
+    $ npm install @rowanmanning/rconsole
 
 ## Examples
 
@@ -19,7 +19,7 @@ By default your syslogs will land in `/var/log/messages`. Add a new `facility` w
 
 ```js
 
-require('rconsole')
+require('@rowanmanning/rconsole')
 console.set({ facility: 'local0', title: 'basic' })
 console.log('hello world')
 ```
@@ -30,7 +30,7 @@ Here is an example webserver that pipes `express.logger` to the stream for notic
 
 ```js
 
-require('rconsole')
+require('@rowanmanning/rconsole')
 
 var express = require('express')
   , app = express.createServer()
@@ -79,7 +79,7 @@ To disable the stderr stream, start the app with `NODE_ENV=production` and then 
 
 ```js
 
-require('rconsole')
+require('@rowanmanning/rconsole')
 
 console.set({
   facility: 'local0'      // default: user
