@@ -3,6 +3,10 @@
 
 C bindings to syslog and a fast, more feature-rich console module.
 
+**Note: published under `@rowanmanning/rconsole` on npm for Node.js `0.12` support. For use in internal projects.**
+
+For the original repository, see [tblobaum/rconsole](https://github.com/tblobaum/rconsole).
+
 ## Install
 
     $ npm install rconsole

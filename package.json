@@ -1,12 +1,12 @@
 {
   "author": "Thomas Blobaum <tblobaum@gmail.com> (https://github.com/tblobaum/)",
-  "name": "rconsole",
+  "name": "@rowanmanning/rconsole",
   "description": "'syslog.h' bindings with a revised console module",
-  "version": "0.2.0",
-  "homepage": "https://github.com/tblobaum/rconsole",
+  "version": "0.3.0",
+  "homepage": "https://github.com/nature/rconsole",
   "repository": {
     "type": "git",
-    "url": "git@github.com:tblobaum/rconsole.git"
+    "url": "git@github.com:nature/rconsole.git"
   },
   "scripts": {
     "test": "make test",
